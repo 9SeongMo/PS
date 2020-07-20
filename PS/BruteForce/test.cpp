@@ -12,7 +12,6 @@ int main()
     int d = a + b + c;
  
     cout << a << " + " << b << " + " << c << " = " << d << endl;
-    cout << "SDs" << endl;
  
     return 0;
 }
