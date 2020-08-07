@@ -8,6 +8,28 @@ void my_print_bin8to32(unsigned char* arr);
 typedef unsigned char u8;
 typedef unsigned int u32;
 
+void my_write_pin(unsigned char x, unsigned char pin_num, unsigned char w) {
+
+	
+	u8 res = 0;
+	u8 add_num = w << pin_num - 1;
+	res = x | add_num;
+	
+	my_print_bin_8(res);
+
+}
+
+
+int my_read_pin(unsigned char x, unsigned char pin_num) {
+
+	u8 mask = 1 << pin_num-1;
+
+	x &= mask;
+
+	x >>= pin_num-1;
+
+	return x;
+}
 
 int my_read_pin4(unsigned char x) {
 
@@ -18,7 +40,6 @@ int my_read_pin4(unsigned char x) {
 	x >>= 3;
 
 	return x;
-
 }
 
 
@@ -125,9 +146,12 @@ int main() {
 	my_print_bin_32(d4);
 	my_print_bin32to8(d4);
 	my_print_bin8to32(x);
-	printf("%d\n", my_read_pin4(d2));
-	printf("%d\n", my_read_pin4(d3));
-
+	//printf("%d\n", my_read_pin4(d2));
+	//printf("%d\n", my_read_pin4(d3));
+	for (int i = 1; i <= 8; i++) {
+		printf("%d\n", my_read_pin(d3, i));
+	}
+	
 
 	//u8 p = 0b00000001;
 
