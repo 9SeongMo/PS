@@ -1,11 +1,22 @@
 
-# CMOS,CCD 원리와 장단점
-=========================================================================
-
-## 광센서의 역할
+# 디지털이미지센서
 -----------------------------------------------
 
-- ## 광센서
+## 이미지센서 개요
+-----------------------------------------------
+
+- ## 분류기준
+	- 구조(CMOS or CCD)
+	- 채도(Color or Mono)
+	- 셔터(Global or Rolling shutter)
+
+- ## 고려할사항
+	- 해상도(Resolution)
+	- 출력 속도(Frame rate)
+	- 픽셀 크기(Pixel Size)
+	- 센서 포맷(Sensor Format)
+
+- ## 광센서의 목적
 	- 이미지 센서는 각 픽셀에 얼마만큼의 빛이 들어왔는지를 수치로 표현하는 것 
 	- 이미지 프로세싱 과정을 거치며 해당 픽셀에 빛이 많이 들어올 수록 흰색, 적게 들어올 수록 검정색으로 표현하는 것 뿐이다. 
 	- 색깔은 픽셀은 색깔을 알지 못한다. 색깔을 알려면, 포토다이오드가 파장별로 얼마나 많은 빛이 들어왔는지를 판단해야함
@@ -20,7 +31,7 @@
 
 
 
-## 원리
+## 구조(CMOS or CCD)
 -----------------------------------------------
 
 - ## CCD(Charge Coupled Device)
@@ -61,9 +72,35 @@
 
 
 
+## 글로벌 셔터(Global Shutter) vs 롤링 셔터(Rolling Shutter)
+-----------------------------------------------
+- ## 이미지 센서의 분류기준에 셔터 유형이 있고 종류는 글로벌 셔터와 롤링 셔터 두 가지가 있음
+
+- ## 글로벌 셔터(Global Shutter)
+	- 타이밍 차트에서, 글로벌 셔터는 모든 픽셀이 동시에 노출을 시작하고 종료
+	- 리드아웃(Readout)은 순차적으로 한 줄씩 수행
+	- 글로벌 셔터 센서는 빠른 속도로 움직이는 물체를 영상화하는데 필수적입니다. 거의 모든 머신비전 분야에서는 글로벌 셔터를 채택하여 사용
+	
+	![글로벌셔터](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F99A3E83E5AB74166044A3A)
+	<br/> 
+
+
+
+- ## 롤링 셔터(Rolling Shutter)
+	- 롤링 셔터는 이동(shifted)시간에 따라 리셋 및 리드아웃이 이루어지는 라인이 다름
+	- 카메라가 움직이는 경우 영상에 왜곡을 발생
+	- 롤링 셔터 센서는 정적 또는 저속으로 움직이는 물체를 이미지화 하기에 탁월한 감도를 제공
+	
+	![CMOS](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile8.uf.tistory.com%2Fimage%2F9939B7355AB7427A0EF739)
+	<br/>
+
+
+
+
 
 
 	- 출처
 		+ https://kalchi09.tistory.com/entry/%EC%B9%B4%EB%A9%94%EB%9D%BC%EC%9D%98-%EC%9B%90%EB%A6%AC-1-%EB%94%94%EC%A7%80%ED%84%B8-%EC%B9%B4%EB%A9%94%EB%9D%BC%EC%9D%98-%EC%84%BC%EC%84%9C-CCD%EC%99%80-CMOS
 		+ https://www.baslerweb.com/ko/sales-support/downloads/document-downloads/modern-cmos-cameras/
 		+ https://kalchi09.tistory.com/entry/%EC%B9%B4%EB%A9%94%EB%9D%BC%EC%9D%98-%EC%9B%90%EB%A6%AC2-CCD%EC%99%80-CMOS%EC%9D%98-%EC%83%89-%EA%B5%AC%ED%98%84%EB%B0%A9%EB%B2%95
+		+ https://luckygg.tistory.com/26?category=811446
