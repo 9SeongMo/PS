@@ -1,6 +1,6 @@
 
 # 카메라 성능요소
-=============================================================================
+-----------------------------------------------
 
 ## EMVA1288 표준
 -----------------------------------------------
@@ -9,28 +9,33 @@
 	- 2004년 20여개 제조업체,실사용자,연구기관들이 협력체를 구성해 개발한 기준
 	- 따라서 거의 모든 머신 비전 카메라 제조사들은 공급 업체 간에 카메라 성능을 비교 및 대조할 수 있도록 EMVA 1288 표준을 준수
 	- 아래의 설명들은 가장 일반적인, 영상 화질에 영향을 미치는 파라미터를 설명
+
 	<br/>
+
 	- 여기에서 설명하는 기준들은 이론적인 설명만을 다루게됨 단지 제품을 선정하는데 있어서 '참고'만 하는데 사용하는 기준
 	- 실제로는 여러 카메라와 렌즈, 조명을 조합하여 많은 테스트를 거쳐 선정해야함
 
 
-		+ 1. 양자 효율성 (Quantum Efficiency, QE)
+		1. 양자 효율성 (Quantum Efficiency, QE)
 
-		+ 2. 포화 용량 (Saturation Capacity, Full Well Depth)
+		2. 포화 용량 (Saturation Capacity, Full Well Depth)
 
-		+ 3. Temporal Dark Noise (Read Noise)
+		3. Temporal Dark Noise (Read Noise)
 
-		+ 4. 신호대 노이즈 비율 (Signal to Noise Ratio, SNR or SN or dB or bits)
+		4. 신호대 노이즈 비율 (Signal to Noise Ratio, SNR or SN or dB or bits)
 
-		+ 5. 다이나믹 레인지(Dynamic Range)
+		5. 다이나믹 레인지(Dynamic Range)
 
-		+ 6. 절대 감도 임계값(Absolute Sensitivity Threshold)
+		6. 절대 감도 임계값(Absolute Sensitivity Threshold)
 
 
 	- 양자 효율성 (Quantum Efficiency, QE)
+
+	<br/>
+
 	![양자효율성](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F99418D3F5AA49BCB0F18BB)
 		+ 단위
-			+ Percent (%)
+			* Percent (%)
 		+ 의미
 			* 센서의 각 픽셀 하나가 광자(photons)를 특정파장(nm)에서 전하(electrons)로 변환하는데 얼마나 효율적인지, 변환되는 '비율'을 의미함
 			* 한 픽셀로 들어가는 모든 광자가 전자로 변환되는 것은 아니므로, 100% 효율을 갖는 센서는 없다 
