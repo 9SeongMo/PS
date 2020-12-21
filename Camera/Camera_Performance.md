@@ -11,18 +11,18 @@
 	- 아래의 설명들은 가장 일반적인, 영상 화질에 영향을 미치는 파라미터를 설명
 	- 여기에서 설명하는 기준들은 이론적인 설명만을 다루게됨 단지 제품을 선정하는데 있어서 '참고'만 하는데 사용하는 기준
 	- 실제로는 여러 카메라와 렌즈, 조명을 조합하여 많은 테스트를 거쳐 선정해야함
-	-
-		1. 양자 효율성 (Quantum Efficiency, QE)
+	
+		+ 양자 효율성 (Quantum Efficiency, QE)
 
-		2. 포화 용량 (Saturation Capacity, Full Well Depth)
+		+ 포화 용량 (Saturation Capacity, Full Well Depth)
 
-		3. Temporal Dark Noise (Read Noise)
+		+ Temporal Dark Noise (Read Noise)
 
-		4. 신호대 노이즈 비율 (Signal to Noise Ratio, SNR or SN or dB or bits)
+		+ 신호대 노이즈 비율 (Signal to Noise Ratio, SNR or SN or dB or bits)
 
-		5. 다이나믹 레인지(Dynamic Range)
+		+ 다이나믹 레인지(Dynamic Range)
 
-		6. 절대 감도 임계값(Absolute Sensitivity Threshold)
+		+ 절대 감도 임계값(Absolute Sensitivity Threshold)
 
 	<br/>
 
@@ -39,12 +39,10 @@
 			+ 높을수록좋다
 			
 	![양자효율성](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F99418D3F5AA49BCB0F18BB)
-
-
+	<br/>
+	
 
 	- 포화 용량 (Saturation Capacity, Full Well Depth)
-
-	![포화용량](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F99E3C5505AA4B10B1FAACE)
 		+ 단위
 			+ Electrons (e-)
 		+ 의미
@@ -57,7 +55,8 @@
 			* 일반적으로 픽셀 크기가 클수록 포화 용량도 크며, 포화 용량이 클수록 빛을 감지하는 범위가 넓어진다
 			* 단 포화용량 자체로 센서성능을 결정하는 기준으로보기에 부족함(QE,Temporal Dark Noise같은 기준과 연관되어있음)
 
-
+	![포화용량](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F99E3C5505AA4B10B1FAACE)
+	<br/>
 
 	<br/><br/><br/><br/>
 
