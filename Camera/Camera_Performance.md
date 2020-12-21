@@ -27,9 +27,6 @@
 	<br/>
 
 	- 양자 효율성 (Quantum Efficiency, QE)
-
-	![양자효율성](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F99418D3F5AA49BCB0F18BB)
-		
 		+ 단위
 			+ Percent (%)
 		+ 의미
@@ -40,12 +37,14 @@
 			+ 센서 기술과 특정 파장에 따라 QE는 달라집니다.
 		+ 결론
 			+ 높을수록좋다
+			
+	![양자효율성](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F99418D3F5AA49BCB0F18BB)
+
 
 
 	- 포화 용량 (Saturation Capacity, Full Well Depth)
 
 	![포화용량](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F99E3C5505AA4B10B1FAACE)
-		
 		+ 단위
 			+ Electrons (e-)
 		+ 의미
