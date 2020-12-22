@@ -94,6 +94,19 @@
 	<br/>
 
 
+## 센서사이즈
+-----------------------------------------------
+
+- ## 센서사이즈
+	- 픽셀하나크기(가로 or 세로) x 해상도(가로or세로)
+	
+	- 이미지센서 크기에서 1"(인치)는 14.4mm , 일반적으로는 25.5mm
+		+ 카메라 센서에서 인치사이즈는 1950년대 진공관으로 카메라만들던 시절 케이스 사이즈를 기준으로해서 평소 사용하는 인치길이와 다름
+
+
+	![sensor_size](https://user-images.githubusercontent.com/68523963/102839547-238f7080-4444-11eb-9e59-8c3d145dfde8.PNG)
+	<br/>
+
 
 
 
@@ -103,3 +116,4 @@
 		+ https://www.baslerweb.com/ko/sales-support/downloads/document-downloads/modern-cmos-cameras/
 		+ https://kalchi09.tistory.com/entry/%EC%B9%B4%EB%A9%94%EB%9D%BC%EC%9D%98-%EC%9B%90%EB%A6%AC2-CCD%EC%99%80-CMOS%EC%9D%98-%EC%83%89-%EA%B5%AC%ED%98%84%EB%B0%A9%EB%B2%95
 		+ https://luckygg.tistory.com/26?category=811446
+		+ https://my-rom.tistory.com/5
