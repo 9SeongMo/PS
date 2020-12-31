@@ -18,6 +18,9 @@
 
 	- CS mount 카메라에 C-mount 타입 렌즈를 사용하려면?
 		+ 5mm 어댑터링을 장착하여 FB를 17.526mm 으로 맟춰서 사용가능함
+		
+	![mount](https://user-images.githubusercontent.com/68523963/103389003-a2289400-4b4f-11eb-8c1d-774907b71a60.PNG)
+	<br/>
 	
 	- C-Mount를 머신비전시장에서 가장 많이사용
 
