@@ -13,11 +13,17 @@
 	-  ``` sudo apt-get install samba ```
 		+ 삼바설치하고
 	
+	- 공유하고 싶은 폴더하나 만들어주고
+
 	-  ``` sudo smbpasswd -a [계정명] ```
 		+ 공유폴더에 사용할 계정입력 비밀번호설정
 
 	- ``` sudo vi /etc/samba/smb.conf ```
 		+ conf파일 맨 아래에 뭔가 추가해준다, 참고 블로그에 다 나옴
+	
+	- ``` sudo ufw allow 139 ```
+	  ``` sudo ufw allow 445 ```
+		+ 방화벽 해제하기
 
 	- ``` sudo /etc/init.d/smbd restart ```
 		+ conf 설정 적용하기위해 삼바 데몬 프로세스를 재시작한다
