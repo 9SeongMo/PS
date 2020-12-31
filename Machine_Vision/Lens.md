@@ -11,7 +11,7 @@
 
 	- Back Flange Distance :　카메라 이미지센서에서부터 마운트 표면까지의 거리
 
-	![Flange Back](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbyOVx6%2FbtqC0KmEqIm%2FJgTxHjtGqFVwCRAdlNKID1%2Fimg.bmpB)
+	![fb](https://user-images.githubusercontent.com/68523963/103388663-b10e4700-4b4d-11eb-8aea-b8015d85106b.png)
 	<br/>
 
 
