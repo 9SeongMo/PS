@@ -25,7 +25,7 @@
 	  ``` sudo ufw allow 445 ```
 		+ 방화벽 해제하기
 
-	- ``` sudo /etc/init.d/smbd restart ```
+	- ``` sudo service smbd restart ```
 		+ conf 설정 적용하기위해 삼바 데몬 프로세스를 재시작한다
 		
 	- 윈도우에서 공유폴더 접근하듯이 ip주소 입력해서 연결하면 끝
