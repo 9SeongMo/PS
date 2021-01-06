@@ -20,6 +20,13 @@
 
 	- ``` sudo vi /etc/samba/smb.conf ```
 		+ conf파일 맨 아래에 뭔가 추가해준다, 참고 블로그에 다 나옴
+		+ ```   comment = khadas
+				path = /home/khadas
+				valid user = khadas
+				writeable = yes
+				create mask = 0777
+				directory mask  = 0777 ```
+
 	
 	- ``` sudo ufw allow 139 ```
 	  ``` sudo ufw allow 445 ```
