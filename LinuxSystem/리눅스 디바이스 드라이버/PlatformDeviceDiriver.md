@@ -24,8 +24,14 @@
 	- 따로 request 함수를 구현해야하고 이 함수에서 실질적인 read/write 작업을 한다
 	- 또 블럭의 크기, 섹터크기, 전체크키를 따로 블럭장치 관리하는 전역변수에 설정해야한다
 
-
-
+- ## Device Tree(DT)
+	- 하드웨어 구성을 설명하기위한 데이터 구조, 부트로더와 os간의 표준인터페이스
+	- .dts : board-level definitions
+	- .dtsi : include file, SoC-level definitions
+	- status = "okay" 로 하드웨어 구동여부 결정
+	- linux-khadas-vims-4.9.y\linux-khadas-vims-4.9.y\arch\arm64\boot\dts\amlogic 안에 위치함
+	- 장치트리는 
+	- A311D memory map으로 가면 각 장치별 주소가있다
 
 - ## 출처
 	- https://www.g.camp/1949 강의 필기
