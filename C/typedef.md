@@ -8,13 +8,15 @@
 		+ ``` typedef unsigned int uint_16; ```
 	
 	- 그 다음 구조체
-		+ ``` typedef struct _Person {
+		+ ```
+		                typedef struct _Person {
 				char name[20];
 				int age;
 		      } Person;
 
 	- 그 다음은 열거형(enum)
-		+ ``` typedef enum{ WHITE, 
+		+ ``` 
+		                                        typedef enum{ WHITE, 
 							BLACK, 
 							GREEN}COLOR_TYPE;
 		+ 이렇게 하면 함수 안에 매개변수로 정의해서 코딩 실수를 줄일 수 있다
