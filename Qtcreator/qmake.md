@@ -8,7 +8,9 @@
 	CONFIG += link_pkgconfig
 
 	PKGCONFIG += protobuf
-
+	
+	- pkg 리스트보는법
+	- ``` pkg-config --list-all | grep "opencv*" ```
 
 	<br/><br/><br/><br/>
 
