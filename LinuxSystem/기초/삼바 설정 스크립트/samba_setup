@@ -1,0 +1,7 @@
+#!bin/bash
+
+echo 'khadas' | sudo -S cp -arf ./smb.conf /etc/samba/smb.conf
+sudo ufw allow 139
+sudo ufw allow 445
+sudo service smbd restart
+
